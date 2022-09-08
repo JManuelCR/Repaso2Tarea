@@ -49,23 +49,23 @@ const auto = {
  * que quieras
  */
 
-const kodersG21 = [
-    rodri,
-    fanny,
-    cintia,
-    deni,
-    annie,
-    fer,
-    benja,
-    rafa,
-    jona,
-    manu,
-    christian,
-    javi,
-    xavy,
-    hector,
-    victor,
-    emanuel,
+ const kodersG21 = [
+    'rodri',
+    'fanny',
+    'cintia',
+    'deni',
+    'annie',
+    'fer',
+    'benja',
+    'rafa',
+    'jona',
+    'manu',
+    'christian',
+    'javi',
+    'xavy',
+    'hector',
+    'victor',
+    'emanuel',
 ];
 
 /**Ejercicio 4
@@ -97,7 +97,48 @@ validarPersonaMayorDeEdad(Carlos, 16);
 
 
 /**Ejercicio 6
- * Generar un programa que imprima los 
+ * Generar un programa que me ayude a imprimir los valores del siguiente objeto
+ * let usuario = {}
+ * nombre: 'Juan',
+ * edad: 20,
+ * contraseña:'password*2022'
+ * }
  */
 
+let usuario = {
+  nombre: 'Juan',
+  edad: 20,
+  contraseña:'password*2022',
+}
+
+for(properties in usuario) {
+    console.log(properties + ' =', usuario[properties]);
+}
+
+/**Ejercicio 7
+ * Generar un programa que me ayude a isntalar los elementos del array del eejercicio 3 elemento por elemento
+ */
+
+ const kodersG21 = [
+    'rodri',
+    'fanny',
+    'cintia',
+    'deni',
+    'annie',
+    'fer',
+    'benja',
+    'rafa',
+    'jona',
+    'manu',
+    'christian',
+    'javi',
+    'xavy',
+    'hector',
+    'victor',
+    'emanuel',
+];
+
+for(elements of kodersG21) {
+    console.log(elements);
+}
 
